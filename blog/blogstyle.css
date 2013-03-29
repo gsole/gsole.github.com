@@ -1,28 +1,44 @@
 
 /* where Gemma's code starts */
 
-img{}
+ul {list-style: none;
+	font-style: "Helvetica", Arial, sans-serif;
+}
 
-.nav-img { background-image: "images/blog-logo.png"}
+li {font-style: "Helvetica", Arial, sans-serif;
+}
 
-.nav-head {text-align: left;
+header {width: 800px;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+}
+
+nav .nav-head {
+	float: right;
+	text-align: left;
 	font-family:"Helvetica", Arial, sans-serif;
-
 }
 
 .nav-head ul li a{
-	list-style-type: none;
+	list-style: none;
 	text-decoration: none;
 
 }
+
+.sidebar {float: left;
+padding: 10px;}
 
 .sidebar ul li a{text-align: left;
-	padding: 10px;
 	list-style-type: none;
 	text-decoration: none;
+
 }
 
-.content {padding: 50px;}
+section .content {
+	padding: 400px;
+	float: right;
+	width: 800px;
+}
 
 .blog-post {}
 
@@ -32,15 +48,18 @@ img{}
 
 .site-footer
 
-section { color:black;	
+section { color:black;
 }
 
 
-h1 {}
+h1 {margin-top: 15px;
+	float: left;
+	font-family: "Helvetica", Arial, Sans-serif;
+	font-size: 40px;}
 
 h2 {color:black;
 	font-size: 20px;
-	font-family: "Bebas", Arial, Sans-serif;;
+	font-family: "Helvetica", Arial, Sans-serif;
 }
 
 h4 {color:black;
