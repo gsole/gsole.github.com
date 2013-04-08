@@ -1,6 +1,17 @@
 
 /* where Gemma's code starts */
 
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 ul {list-style: none;
 	font-family: "Helvetica", Verdana, sans-serif;
 }
@@ -11,10 +22,16 @@ li {font-family: "Helvetica", Verdana, sans-serif;
 }
 
 div .header {width: 800px;
-	border-bottom: 1px solid black;}
+	border-bottom: 1px solid black;
+	position: absolute;
 }
 
-div .container { width: 850px;
+div .content {
+	margin-top: 30px;
+
+}
+
+.container { width: 850px;
 	float: right;
 	padding-left: 20px;
 	padding-right: 150px;
@@ -39,39 +56,55 @@ nav .nav-head {
 	float: right;
 }
 
-.sidebar {float: left;
+aside {float: left;
 	padding: 10px;
-	width: 200px;
+	width: 250px;
+	position: absolute;
 	font-family: "Helvetica", Verdana, sans-serif;
 	font-weight: bold;
 	font-size: 12px; 
 }
 
+aside li { margin-bottom: 20px;}
 
-.sidebar ul li a{text-align: left;
+aside ul li a{text-align: left;
 	list-style-type: none;
 	text-decoration: none;
 
 }
 
 section .content {
-	padding: 400px;
+	width: 644px;
 	float: right;
-	width: 800px;
-	padding-top: 100px;
+	margin-bottom: 30px;
 }
 
-footer .site-footer {float:right;}
+footer {
+	font-weight: bold;
+	clear: both;
+	border-top: solid #7f7f7f 2px;
+}
 
-h1 {margin-top: 15px;
+footer .site-footer {
+	float: right;
+}
+
+footer p {
+	margin-top: 5px;
+}
+
+h1 {margin-top: 0px;
 	margin-left: 10px;
 	float: left;
-	font-family: "Helvetica", Verdana, Sans-serif;
-	font-size: 40px;}
+	font-family: "LeagueGothicRegular", Sans-serif;
+	text-transform: uppercase;
+	font-size: 60px;}
 
 h2 {color:black;
 	font-size: 20px;
-	font-family: "Helvetica", Verdana, Sans-serif;
+	font-family: "LeagueGothicRegular", Sans-serif;
+	text-transform: uppercase;
+	margin-top: 10px;
 }
 
 h4 {color:black;
@@ -83,11 +116,6 @@ p {color:black;
 	font-family: "Helvetica", Verdana, sans-serif;
 	font-size: 12px;
 }
-
-
-
-
-
 
 
 
