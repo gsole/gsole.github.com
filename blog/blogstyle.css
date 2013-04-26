@@ -1,55 +1,6 @@
 
 /* where Gemma's code starts */
 
-/* where Gemma's responsive code starts*/
-@media (max-width: 980px) {
-  body {
-  	width: 90%;
-  }
-  header {
-    width: 90%;
-  }
-  aside {
-    width: 70%;
-  }
-  .container {
-    width: 70%;
-  }
-
-@media (max-width: 700px) {
-  body {
-  	width: 70%;
-  }
-  header {
-    width: 70%;
-  }
-  aside {
-    width: 50%;
-  }
-  .container {
-    width: 60%;
-  }
-
-@media (max-width: 480px) {
-  body {
-  	width: 20%;
-  }
-  header {
-    width: 20%;
-  }
-  aside {
-    width: 100%;
-  }
-  .container {
-    width: 20%;
-  }
-  h1 { 
-    font-size: .5em;
-  }
-
-
-/* where Gemma's resposnive code ends! */
-
 @font-face {
     font-family: 'LeagueGothicRegular';
     src: url('League_Gothic-webfont.eot');
@@ -275,7 +226,76 @@ footer p {
 	margin-top: 5px;
 }
 
+/* where Gemma's responsive code starts*/
+@media (max-width: 980px) {
+  body {
+  	width: 90%;
+  }
+  header {
+    width: 90%;
+  }
+  aside {
+    width: 70%;
+  }
+  .container {
+    width: 70%;
+  }
+  section {
+    width: 70%;
+  }
+}
 
+@media (max-width: 700px) {
+  body {
+  	width: 70%;
+  }
+  header {
+    width: 100%;
+  }
+  aside {
+	width: 175px;
+	float: left;
+	position: absolute
+  }
+  .container {
+    width: 70%;
+  }
+  section {
+    width: 70%;
+  }
+    h1 { 
+    font-size: 2.53em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+  	width: 100%;
+  }
+  header {
+    width: 80%;
+  }
+  .container {
+    width: 70%;
+    float: left;
+    position: none;
+    padding-left: 20px;
+  }
+  section {
+    width: 110%;
+  }
+  h1 { 
+    font-size: 1.75em;
+  }
+  aside {
+	width: 200%;
+	float: left;
+	position: relative;
+}
+
+}
+
+/* where Gemma's responsive code ends! */
 
 
 
